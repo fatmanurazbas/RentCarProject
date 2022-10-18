@@ -1,0 +1,76 @@
+
+/* Audi */
+
+div[class="car-details"] {
+    min-height: calc(100vh - 7rem);
+    background: #fff;
+    border-radius: 10px;
+    opacity: 0.91;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em; 
+}
+
+#Car-Inform {
+      display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#Car-Inform img{
+    flex-direction: row;
+    margin-top: 1.5em;
+    padding-left: 2em;
+    padding-top: 1em;
+    padding-right: 20em;
+}
+
+div[class="car-details"] p {
+    text-align: center;
+    font-size: 2em;
+}
+
+#Car-Inform img {
+    width: 70%;
+    height: 35%;
+    margin-bottom: 8em;
+   /* border-radius: 75%; */
+}
+
+div[id="Car-Inform"] span p {
+    font-size: large;
+    text-align: left;
+    margin-right: 8em;
+    padding-top: 1em;
+}
+
+div[id="Car-Inform"] span p:nth-child(1){
+    margin-top: 1.5em;
+}
+
+
+.button-kirala{
+    background: #062e51;
+    color: #fff;
+    align-items: center;
+    padding: 2%;
+    border: #336ea2;
+    border-radius: 3px; 
+    margin-left: 75%;
+    letter-spacing: 0.1em;
+    height: 4em;
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 2em;
+} 
+
+.button-kirala:hover{
+    cursor: pointer;
+    background: #336ea2;
+}
+
+.button-kirala:active{
+    cursor: pointer;
+    background: #062e51;
+} 

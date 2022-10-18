@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RentCar</title>
+   <!-- Favicon  -->
+   <link rel="icon" href="https://freeiconshop.com/wp-content/uploads/edd/car-flat.png" type="image/x-icon" />
+   <!-- Open Sans Font -->
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=latin-ext" rel="stylesheet">
+   <!-- Tags -->
+   <meta name="keyword" content="Rent A Car">
+   <meta name="description" content="Rent A Car">
+   <!-- Font Awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+   integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+   crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   <!-- Style CSS Files -->
+   <link rel="stylesheet" href="./css/global.css">
+   <link rel="stylesheet" href="./css/main.css">
+
+   <!-- Tablet -->
+   <link rel="stylesheet" media="(max-width:768px)" href="./css/tablet.css">
+   <!-- Mobile -->
+   <link rel="stylesheet" media="(max-width:500px)" href="./css/mobile.css">
+</head>
+<body>
+    <header class="bg-dark-blue">
+        <div class="container">
+            <nav id="navbar">
+                <a href="./Index.html" class="heading-small"><i class="fa-solid fa-car"></i> RentCar</a>
+                <ul>
+                    <li><a href="./Index.html"><i class="fa-solid fa-house-chimney"></i> Anasayfa</a></li>
+                    <li><a href="./Reservation.html"><i class="fa-solid fa-magnifying-glass"></i> Rezervasyon Ara</a></li>
+                    <li><a href="./Login.html"><i class="fa-solid fa-arrow-right-to-bracket"></i> Giriş Yap</a></li>
+                    <li><a href="#contact"><i class="fa-solid fa-phone"></i> İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="location">
+        <p>
+            <b>Araba kiralamanın en kolay yolu!</b><br>
+            <b>İstediğiniz arabayı seçin, </b><br>
+            <b> istediğiniz yere istediğiniz zaman getirelim!</b>
+        </p>
+        <div class="inputs" >
+            <input type="text" class="locals" name="locality" placeholder="Nereden Alacaksınız?">
+            <input type="text" class="locals" name="locality" placeholder="Nerede Bırakacaksınız?">
+        </div>
+        <div class="find-button">
+            <a href="Find-Car.html"><button> Arabamı Bul</button> </a>   
+        </div>
+        <div class="dates">
+            <label for="start">Alış Tarihi:</label>
+            <input type="date" style="margin:1.25rem;" id="start" name="trip-start" value="today" >
+            <label for="finish">Bırakma Tarihi:</label>
+            <input type="date" style="margin: 1.25rem;" id="finish" name="trip-finish" value="today">
+        </div>
+    </div>
+
+    <footer id="contact" class="bg-dark-blue" style="position:inherit; bottom:0; width: 100%; margin: 0 auto;">
+        <div class="contact-form">
+            <form>
+                <h5>Sosyal Medya Hesaplarımız:</h5>
+                <ul>
+                    <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/FatmanurAzbas"><i class="fab fa-twitter" target="_blank"></i></a></li>
+                    <li><a href="https://www.instagram.com/nurazbs/"><i class="fab fa-instagram" target="_blank"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCGor9AutJz7DD57_lXIuHcg" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+            </form>
+        </div>
+    </footer>
+</body>
+</html>

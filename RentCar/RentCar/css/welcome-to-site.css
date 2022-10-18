@@ -1,0 +1,37 @@
+/* WELCOME TO SITE */
+
+#Welcome{
+    min-height: calc(100vh - 7rem);
+    
+}
+
+#Welcome p{
+    text-align: center;
+    margin-top: 4em;
+    font-size: 2em;
+}
+
+#Welcome button{
+    margin-top: 4rem;
+    padding: 2rem;
+    border: #062e51;
+    background-color: #062e51;
+    color: #fff;
+    opacity: 100% !important;
+    border-radius: 7px;
+    letter-spacing: 0.5px;
+    width: 30%;
+    margin-left: 27em;
+    text-align: center;
+    /* justify-content: flex-end; */
+    cursor: pointer;
+    font-size: larger;
+}
+
+#Welcome button:hover{
+    background: #336ea2;
+}
+
+#Welcome button:active{
+    background: #062e51;
+}

@@ -1,0 +1,80 @@
+div[id="rent"] {
+    min-height: calc(100vh - 7rem);
+    background: #fff;
+    border-radius: 10px;
+    opacity: 0.9;
+    margin-top: 2em;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-bottom: 2em;
+}
+
+div[id="rent"] p {
+    text-align: center;
+    font-size: 1.5em;
+    flex-direction: column;
+    margin-top: 1em;
+}
+
+div[id="rent-forms"] {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section[class="rent-form"] {
+    flex-direction: column;
+}
+
+section[class="rent-form-2"] {
+    flex-direction: column;
+}
+
+section[class="rent-form-2"] {
+    flex-direction: column;
+}
+
+div[id="rent-forms"] {
+    margin-right: 15em;
+}
+
+section[id="rent-form-girdi"]:nth-child(2){
+    margin-left: 9em;
+}
+
+section[id="rent-form-girdi"]:nth-child(3){
+    margin-left: 14em;
+}
+
+section[id="rent-form-girdi"] p {
+    margin-top: 2em;
+    margin-left: 4em;
+}
+
+section[id="rent-form-girdi"] p:nth-child(1) {
+    margin-left: 4em;
+}
+
+section[id="rent-form-girdi"] input {
+    padding: 1em;
+    flex-direction: column;
+}
+
+section[id="rent-form-girdi"] label {
+    margin-left: 7.5em;
+    font-size: 0.9em;
+}
+
+input[class="girdi"] {
+    margin-left: 8em;
+}
+
+input[class="giris-button"]{
+    flex-direction: row;
+    margin-top: 7em;
+    margin-bottom: 4em;
+}
+
+div[class="tuslar"] {
+    margin-left: 20em;
+}

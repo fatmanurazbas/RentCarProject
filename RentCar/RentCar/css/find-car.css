@@ -1,0 +1,133 @@
+
+/* FIND CAR */
+
+.find-car-body{
+    width: 100%;
+    height: 100%;
+    background: url("https://media.gettyimages.com/photos/repair-service-station-with-lifted-modern-cars-being-under-and-on-picture-id1152779124?b=1&k=20&m=1152779124&s=170667a&w=0&h=3TC5nz-6vNPyYphOnXW3Bw9w2vfEZoKGAFnNIY1cYXA=")    no-repeat fixed;
+    background-size:cover;
+}
+
+ #cars, #cars2, #cars3, #cars4{
+    min-height: calc(100vh - 7rem);
+    display: flex;
+    flex-direction: row;
+    clear: both;   
+    justify-content: space-between;
+} 
+
+section[id="car-section"] p{
+    text-align: center;
+    color: #000;
+}
+
+section[id="car-section"] {
+    margin-bottom: 8em;
+    height: 320px;
+    background: #f9f9fb;
+    opacity: 0.91;
+    border: 2px #f9f9fb;
+    border-radius: 7px;
+}
+
+.car-section{
+    margin-top: 8em;
+    margin-left: 8em;
+    margin-right: 3em;    
+}
+
+.car-section2{
+    margin-top: 8em;
+    margin-left: 5em;
+    margin-right: 3em;
+}
+
+.car-section3{
+    margin-top: 8em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.car-section4{
+    margin-top: 3em;
+    margin-left: 4em;
+    margin-right: 3em;
+}
+
+.car-section5{
+    margin-top: 3em;
+    margin-left: 5em;
+    margin-right: 3em;
+}
+
+.car-section6{
+    margin-top: 3em;
+    margin-left: 2em;
+    margin-right: 3em;
+}
+
+.car-section7{
+    margin-top: 1em;
+    margin-left: 3.5em;
+    margin-right: 3em;
+}
+
+.car-section8{
+    margin-top: 1em;
+    margin-left: 5em;
+    margin-right: 3em;
+}
+
+.car-section9{
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-right: 3em;
+}
+
+.car-section10{
+    margin-top: 1em;
+    margin-left: 4em;
+    margin-right: 3em;
+}
+
+.car-section11{
+    margin-top: 1em;
+    margin-left: 5em;
+    margin-right: 3em;
+}
+
+.car-section12{
+    margin-top: 1em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+section[id="car-section"] button {
+    margin-top: 0.50rem;
+    padding: 0.8rem 3rem;
+    border: #062e51;
+    background-color: #062e51;
+    color: #fff;
+    opacity: 100% !important;
+    border-radius: 7px;
+    letter-spacing: 0.5px;
+    width: 70%;
+    margin-left: 3em;
+    text-align: center;
+    cursor: pointer;
+}
+
+section[id="car-section"] button:hover {
+    cursor: pointer;
+    background: #336ea2;
+}
+
+section[id="car-section"] button:active {
+    background-color: #062e51;
+    color:#fff;
+}
+
+section[id="car-section"] img {
+    border-radius: 7px;
+    margin-left: 1.5em;
+}
